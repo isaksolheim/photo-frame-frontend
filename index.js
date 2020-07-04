@@ -19,6 +19,9 @@ function postImage(img) {
     },
     body: JSON.stringify({ data: img })
   })
-    .then(res => console.log(res.status))
+    .then(res => {
+      console.log(res.status);
+      document.getElementById('output').innerHTML = res.status;
+    })
     .catch(error => console.log(error));
 }
