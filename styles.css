@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+.custom-file-upload {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input[type='file'] {
+  display: none;
+}
